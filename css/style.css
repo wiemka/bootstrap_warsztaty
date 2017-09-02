@@ -4,3 +4,33 @@ font-family: 'Montserrat', sans-serif;*/
 
 
 /*background-image: linear-gradient(to bottom, rgba(0,0,0.4), rgba(0,0,0,0.4)),url(../img/header/pictures_on_the_wall.jpg);*/
+
+
+/*reset*/
+
+body {
+    margin: 0;
+}
+
+
+/*navbar*/
+
+
+/*header*/
+
+#main_header {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#main_header .header_inner {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
